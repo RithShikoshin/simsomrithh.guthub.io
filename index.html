@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--LINK STYLE CSS FILE-->
+    <link rel="stylesheet" href="./Form.css/Form.css">
+</head>                        
+<body>
+    <form>
+        <h1>STUDENT IMFORMATION FORM</h1>
+        <label>Enter Username here:</label>
+        <input type="text" name="Username" placeholder="Enter your name" required><br><br>
+        <label>Enter password here:</label>
+        <input type="password" placeholder="Enter password" required><br><br>
+        <label>Enter Emai here:</label>
+        <input type="email" placeholder="Enter email" required><br><br>
+        <label>Enter Age</label>
+        <input type="Age" placeholder="Enter age" required><br><br>
+        <!-- radio button -->
+        <label>Gender:</label>
+        <label><input type="radio" name="Gender" value="male" checked>Male</label>
+        <label><input type="radio" name="Gender" value="female" checked>Female</label><br></br>
+        <!-- checkbox button-->
+        <label>Subject:</label>
+        <label><input type="checkbox" name="Subject" value="C#" checked>C#</label>
+        <label><input type="checkbox" name="Subject" value="HTML"checked>HTML</label>
+        <label><input type="checkbox" name="Subject" value="CSS" checked>CSS</label>
+        <label><input type="checkbox" name="Subject" value="PHP" checked>PHP</label>
+        <label><input type="checkbox" name="Subject" value="GD" checked>GD</label>
+        <label><input type="checkbox" name="Subject" value="END" checked>END</label>
+        <label><input type="checkbox" name="Subject" value="CM" checked>CM</label>
+        <label><input type="checkbox" name="Subject" value="AC" checked>AC</label><br></br>
+
+        <!-- Combo Box Select-->
+             <label>Choose a School:</label>
+             <select>
+              <option value="SETEC">SETEC</option>
+              <option value="RUPP">RUPP</option>
+              <option value="NUM">NUM</option>
+              <option value="NIE">NIE</option>
+             </select><br><br>
+
+        <!-- Type description-->
+             <label>Description</label><br>
+             <textarea rows="4" cols="30" placeholder="Write your comment here..."></textarea><br><br>
+        <input type="submit" value="Login">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>
